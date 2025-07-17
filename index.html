@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanawaz Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9d5b5e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <link rel="stylesheet" href="style.css">
+  <nav>
+    <div class="logo">Shanawaz's Portfolio</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <a href="Shanawaz resume.pdf" class="download-btn" download>Download Resume</a>
+  </nav>
+  <section class="hero">
+    <div class="profile-glow">
+      <img src="me1.png" alt="Profile" />
+    </div>
+      </div>
+    </div> 
+    <div class="hero-content">
+  <h2>Hello, I'm</h2>
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['Shanawaz Patel'],
+      typeSpeed: 50,
+    });
+  </script>
+<!-- 
+  <h1><span id="typed-name">Shanawaz Patel</span></h1> -->
+  <h3>And I'm a <span class="role">Software Engineer</span></h3>
+  <p>Final-year Computer Engineering student with strong foundation in Java, MERN stack, and a strong grasp of Data Structures &Algorithms. Looking to join a company where I can solve real world problems, optimize systems, and grow as a software Engineer</p>
+
+  <!-- Element to contain animated typing -->
+  
+</body>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <div class="contact-container">
+    <button class="contact-btn">Contact Me</button>
+    <div class="contact-card">
+      <h3>Shanawaz Patel</h3>
+      <p><strong>Email:</strong> shanawazpatel167@gmail.com</p>
+      <p><strong>Phone:</strong> +91 8605242867</p>
+      <p><strong>Location:</strong> Alabad, Maharashtra, India</p>
+      <a class="whatsapp-btn" href="https://wa.me/918605242867" target="_blank">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+
+      <div class="qr-code">
+        <p style="margin: 10px 0 5px; font-size: 13px;">Scan to WhatsApp</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://wa.me/918605242867" alt="WhatsApp QR">
+      </div>
+    </div>
+  </div>
+<div class="social">
+  <a href="https://github.com/ShanawazPatel" target="_blank">
+    <img src="git.png" alt="GitHub">
+  </a>
+  <a href="https://linkedin.com/in/shanawaz-patel-874b0522b/" target="_blank">
+    <img src="linkedin.png" alt="LinkedIn">
+  </a>
+   <a href="https://leetcode.com/u/Shanawaz_Patel/" target="_blank">
+        <img src="leet.png" alt="Leetcode">
+        </a>
+    <a href="https://www.instagram.com/shanawaz_patel/" target="_blank">
+        <img src="insta.png" alt="Instagram">
+        </a> 
+</div>
+</div>
+  </section>
+  <div class="stats">
+  <div class="stat-btn" data-content="1. Smart Productivity Tasker using MERN Stack,
+    2. Personal Portfolio Website using HTML, CSS, JS,
+    3. AI Powered Spotify Clone 4. CampusConnect - Student Collaboration Platform">My Projects</div>
+  <div class="stat-btn" data-content="Skills: Java, React, MongoDB, DSA, etc.">My Skills</div>
+  <div class="stat-btn" data-content="Certified in MERN Stack, DSA, and more.">My Certificates</div>
+  <div class="stat-btn" data-content="Hobbies: Coding, Gaming | Strengths: Fast Learner, Leadership">My Hobbies and Strength</div>
+</div>
+
+<div id="info-card" style="display: none;" class="info-card"></div>
+<script>
+  const buttons = document.querySelectorAll('.stat-btn');
+  const card = document.getElementById('info-card');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const content = btn.getAttribute('data-content');
+      card.innerHTML = content;
+      card.style.display = 'block';
+    });
+  });
+</script>
+
+ -->
+
+  <script src="app.js"></script>
+ 
+</script>
+
